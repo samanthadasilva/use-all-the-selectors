@@ -13,6 +13,7 @@ nav > ul {
 .logo {
   text-transform: uppercase;
 }
+
 .wrapper {
   background-color: #eee8d5;
 }
@@ -20,13 +21,16 @@ nav > ul {
 #contents {
   color: #93a1a1;
 }
-#favs{
+
+#favs {
   color: #93a1a1;
 }
-#facts{
+
+#facts {
   color: #93a1a1;
 }
-#types{
+
+#types {
   color: #93a1a1;
 }
 
@@ -39,18 +43,21 @@ strong + .dfn {
 }
 
 .index {
-  background-color: #719e07
+  background-color: #719e07;
 }
+
 .history {
-  background-color: #719e07
+  background-color: #719e07;
 }
+
 .contact {
-  background-color: #719e07
+  background-color: #719e07;
 }
-#favs {
-  background-color: #719e07
+
+.favs {
+  background-color: #719e07;
 }
 
 [rel="external"] {
-  background-color: #2694d8
+  background-color: #2694d8;
 }
