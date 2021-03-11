@@ -1,3 +1,11 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 body {
   background-color: #fdf6e3;
 }
@@ -34,7 +42,7 @@ p + strong {
   color: #fff;
 }
 
-header li:nth-child(odd), header li:last-child, main > ul > li:first-child {
+a:not(.no-highlight) {
   background-color: #719e07;
 }
 
