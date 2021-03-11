@@ -2,7 +2,11 @@ body {
   background-color: #fdf6e3;
 }
 
-header footer {
+header {
+  font-size: 1.5rem;
+}
+
+footer {
   font-size: 1.5rem;
 }
 
@@ -18,19 +22,7 @@ nav > ul {
   background-color: #eee8d5;
 }
 
-#contents {
-  color: #93a1a1;
-}
-
-#favs {
-  color: #93a1a1;
-}
-
-#facts {
-  color: #93a1a1;
-}
-
-#types {
+#contents, #favs, #facts, #types {
   color: #93a1a1;
 }
 
@@ -38,46 +30,14 @@ nav > ul {
   background-color: #b58900;
 }
 
-strong + .dfn {
+p + strong {
   color: #fff;
 }
 
-.index {
-  background-color: #719e07;
-}
-
-.history {
-  background-color: #719e07;
-}
-
-.contact {
-  background-color: #719e07;
-}
-
-.favs {
+header li:nth-child(odd), header li:last-child, main > ul > li:first-child {
   background-color: #719e07;
 }
 
 [rel="external"] {
   background-color: #2694d8;
-}
-
-ol:first-child {
-  color: #719e47;
-}
-
-ol:last-child {
-  background-color: #2aa198;
-}
-
-.types:nth-child(odd) {
-  background-color: #657ba3;
-}
-
-.types:nth-child(even) {
-  background-color: #586e75;
-}
-
-.types:nth-child(3n) {
-  background-color: #d04b16;
 }
